@@ -1,0 +1,65 @@
+/* NavBar */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+/* Pages */
+.page {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Counter Box */
+.counter-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.counter-box h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightblue;
+    color: white;
+}
+
+.button:hover {
+    background-color: deepskyblue;
+}

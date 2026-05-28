@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  background-color: azure;
+  font-family: Arial;
+}
+
+.container{
+  width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  width: 70%;
+  padding: 10px;
+}
+
+button{
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+}
